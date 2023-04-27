@@ -51,7 +51,7 @@ function Card({ num, fileName }) {
     <div className={styles.spread_card} ref={card} onClick={callback}>
       <div className={styles.card_front} ref={cardFront} />
       <img
-        src={`/public/cards/${fileName}.jpg`}
+        src={`/cards/${fileName}.jpg`}
         className={styles.card_back}
         alt={`${fileName}`}
       />
