@@ -1,0 +1,20 @@
+$background_color: #4bbbbcff;
+
+body {
+  background: $background_color;
+}
+
+#root {
+  max-width: 1280px;
+  min-width: 591px;
+  margin: 0;
+  padding: 0;
+  background: $background_color;
+}
+
+.wrapper {
+  min-width: 100vw;
+  position: relative;
+  top: 5rem;
+  background: $background_color;
+}
