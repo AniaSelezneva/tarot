@@ -292,7 +292,6 @@ $background_color: #4bbbbcff;
   gap: 2rem;
   font-size: 140%;
   align-items: center;
-  word-break: break-all;
   padding-top: 3rem;
 
   & > .container {
@@ -304,6 +303,7 @@ $background_color: #4bbbbcff;
 
     & > div {
       width: 500px;
+      word-break: break-word;
     }
   }
 
